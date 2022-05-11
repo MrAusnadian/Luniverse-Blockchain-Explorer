@@ -1,5 +1,15 @@
 name: Deploy to GitHub Pages
-permissions: read-all|write-all
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  issues: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
 
 # Controls when the action will run. 
 on:
